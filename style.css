@@ -1,0 +1,322 @@
+/* Navbar */
+.navbar{
+    transition: top 0.5s ease-in-out;
+}
+.navbar-brand{
+    font-family: 'Montserrat Alternates 'sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+.navbar-hide{
+    top: 56px;
+}
+body{
+    background: #272727;
+    
+}
+
+.tombol{
+    border-radius: 40px;
+    opacity: 0.8;
+}
+.navbar-expand-md{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Navbar */
+/* Jumbotron */
+.jumbotron{
+    background-image: url(assets/img/jumbotron.png);
+    background-size: cover;
+    height: 290px;
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron .display-4{
+    color: #ffffff;
+    font-family: 'Montserrat Alternates' sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+/* Jumbotron Akhir */
+/* Info Panel */
+.info-panel{
+    background-color: #292929;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: -40px;
+    padding: 10px;
+}
+.info-panel img{
+    width: 66px;
+    height: 66px;
+    display: block;
+    margin: auto;
+
+}
+.info-panel h4{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+/* About me */
+.info-panelku{
+    background-color: #292929;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 50px;
+}
+.info-panelku h4{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 41px;
+    font-weight: 700;
+    text-align:left;
+    margin-top: -40px;
+}
+.info-panelku p{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 12pxpx;
+    font-weight: 400;
+    text-align:left;
+}
+.info-panelku img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    
+}
+/* About me */
+/* Pendidikan */
+.info-panel-pendidikan{
+    background-color: #292929;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.info-panel-pendidikan h4{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align:left;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.info-panel-pendidikan img{
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+
+}
+
+.info-panel-pendidikan h5{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Akhir Pedidikan */
+/* Portofolio */
+.info-panel-portofolio{
+    background-color: #292929;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.info-panel-portofolio h4{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align:left;
+    margin-bottom: 20px
+}
+.info-panel-portofolio img{
+    width: 250px;
+    height: 190px;
+    display: block;
+    margin: auto;
+
+}
+.info-panel-portofolio h5{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.info-panel-portofolio a{
+    text-decoration: none;
+    color:salmon;
+
+}
+
+    
+/* Portofolio */
+
+/* contact   */
+.info-panel-contact{
+    background-color: #292929;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.info-panel-contact h4{
+    font-family: 'Montserrat Altenates'sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+
+}
+.info-panel-contact h5{
+    font-family: 'Montserrat Altenates'sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.info-panel-contact h4.gradient-text{
+    background-color: red;
+    background-image: linear-gradient(45deg, #ff05ea, #3a17ff);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+/* Dekstop Version */
+@media (min-width: 992px) { 
+    .nav-link{
+        font-family: 'Montserrat Akternates' sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #313DA5;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        height: 768px;
+        margin-top: -10px;
+    }
+    .jumbotron .display-4{
+        font-size: 48px;
+        margin-bottom: 30px;
+        margin-top: 256px;
+    }
+    .info-panel{
+        margin-top: -180px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    .info-panelku{
+        font-family: 'Montserrat Altenates'sans-serif;
+        color: white;
+        font-size: 41px;
+        font-weight: 700;
+        text-align:left;
+        margin-top: -30px;
+    }
+    .info-panelku p{
+        font-family: 'Montserrat Altenates'sans-serif;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        text-align:left;
+        margin-top: 40px;
+    }
+    .info-panelku img{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        display: block;
+        margin-top: 40px;
+    }
+    .info-panel-pendidikan img{
+        width: 170px;
+        height: 170px;
+        margin-top: 30px;
+        
+    }
+    .info-panel-pendidikan h4{
+        font-family: 'Montserrat Altenates'sans-serif;
+        color: white;
+        font-size: 41px;
+        font-weight: 700;
+        text-align:left;
+        margin-top: -40px;
+    }
+    .info-panel-pendidikan h5{
+        font-family: 'Montserrat Altenates'sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .info-panel-portofolio img{
+        width: 400px;
+        height: 283px;
+    
+    }
+    .info-panel-portofolio h4{
+        font-family: 'Montserrat Altenates'sans-serif;
+        color: white;
+        font-size: 41px;
+        font-weight: 700;
+        text-align:left;
+    }
+    .info-panel-portofolio h5{
+        font-family: 'Montserrat Altenates'sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 20px;
+    }
+}
